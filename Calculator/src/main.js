@@ -1,6 +1,6 @@
 // input.js
 const readline = require('readline');
-const { add, subtract, multiply, divide } = require('./calculator');
+const { add, subtract, multiply } = require('./calculator');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -20,7 +20,7 @@ rl.question('첫 번째 숫자: ', (a) => {
       }else if(op === '*'){ 
         result = multiply(x, y);
       }else if(op === '/'){
-        result = divide(x, y);
+        result = "나누기는 지원하지 않습니다.";
       }    
       
       console.log('결과:', result);
