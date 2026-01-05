@@ -1,0 +1,21 @@
+{
+  "name": "ci-cd_practice",
+  "version": "1.0.0",
+  "description": "Learning How to use github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiohan/CI-CD_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jiohan/CI-CD_Practice/issues"
+  },
+  "homepage": "https://github.com/jiohan/CI-CD_Practice#readme"
+}
